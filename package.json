@@ -35,6 +35,7 @@
   },
   "scripts": {
     "build": "tsc -p .",
-    "start": "nodemon --watch '*.ts' --exec 'ts-node' src/server.ts"
+    "start": "nodemon --watch '*.ts' --exec 'ts-node' src/server.ts",
+    "windows-start": "nodemon src/server.ts"
   }
 }
