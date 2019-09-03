@@ -1,0 +1,40 @@
+{
+  "description": "Optimus micro server typescript boilerplate",
+  "keywords": [
+    "microservice",
+    "rest",
+    "http",
+    "node"
+  ],
+  "author": {
+    "name": "OPT SYSTEMS",
+    "email": "info@opt.si",
+    "web": "https://opt.systems"
+  },
+  "contributors": [
+    {
+      "name": "Dominik Bozic",
+      "web": "http://twitter.com/handu"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/opt-systems/optimus-micro-typescript-boilerplate"
+  },
+  "dependencies": {
+    "@types/node": "^12.7.3",
+    "optimus-micro-node": "^1.1.1"
+  },
+  "version": "1.1.0",
+  "name": "optimus-micro-typescript-boilerplate",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.6.2"
+  },
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "nodemon --watch '*.ts' --exec 'ts-node' src/server.ts"
+  }
+}
