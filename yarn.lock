@@ -1152,10 +1152,10 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
-optimus-micro-node@^1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/optimus-micro-node/-/optimus-micro-node-1.1.1.tgz#ed6501bea5a8f5e92c808aaa463d377ef86d9ee0"
-  integrity sha512-2fga34nTM5Hgb0Sjdrkm/NuUJyhK06Y+dfRTb3of7GgaIg6P/kGxjgl/WkpLeEcossHnc5trAuUV/V2Vd27xRw==
+optimus-micro-node@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/optimus-micro-node/-/optimus-micro-node-1.1.2.tgz#2f5fa06d9c01f35f8495e78a54adff5e57d53a77"
+  integrity sha512-ODlVZznxgwCmiXZpHWAHsS7SRPvOek+2MyyVBYuFkdWYoSbAtpqWf97gYY95EfSf83pZmcauXf32TNBs+x3R3A==
 
 os-homedir@^1.0.0:
   version "1.0.2"
